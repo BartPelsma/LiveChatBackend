@@ -1,0 +1,14 @@
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\LiveChat.deps.json
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\LiveChat.runtimeconfig.json
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\appsettings.Development.json
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\appsettings.json
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\LiveChat.exe
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\LiveChat.dll
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\bin\Debug\LiveChat.pdb
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,18 @@
+name: dockercompose15277585753099337190
+services:
+  livechat:
+    build:
+      context: C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat
+      dockerfile: LiveChat/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: livechat
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose15277585753099337190_default
