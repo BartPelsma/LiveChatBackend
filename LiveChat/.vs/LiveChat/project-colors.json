@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2738439-f958-486b-9420-ced67e680cb8": {
+      "ProjectGuid": "a2738439-f958-486b-9420-ced67e680cb8",
+      "DisplayName": "LiveChat",
+      "ColorIndex": 0
+    },
+    "6f7fda42-97c4-4062-b516-322e5eebecd3": {
+      "ProjectGuid": "6f7fda42-97c4-4062-b516-322e5eebecd3",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
