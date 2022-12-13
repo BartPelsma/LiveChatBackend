@@ -43,6 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"BartPelsma_LiveChatBackend" /o:"bartpelsma" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          cd C:\Users\bartp\OneDrive\Documenten\GitHub\LiveChatBackend\LiveChat
-          dotnet build
+          dotnet build LiveChat
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
