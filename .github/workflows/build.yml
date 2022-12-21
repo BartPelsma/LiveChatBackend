@@ -55,7 +55,7 @@ jobs:
         shell: powershell
         run: |
           cd..
-          cd LiveChat/LiveChat
+          cd LiveChat
           docker build -t bartpelsma/chat-backend:latest .
           docker login $CI_REGISTRY -u bartpelsma -p dockertest
           docker push bartpelsma/chat-backend:latest
