@@ -6,6 +6,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
+
   build:
     name: Build and analyze
     runs-on: windows-latest
@@ -45,3 +46,17 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"BartPelsma_LiveChatBackend" /o:"bartpelsma" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build LiveChat\LiveChat.sln
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+  docker:
+    name: Push to Docker
+    runs-on: windows-latest
+    steps:
+      - name: Push to Docker
+        shell: powershell
+        run: |
+          cd chat-backend-project
+          docker build -t bartpelsma/chat-backend:latest .
+          docker login $CI_REGISTRY -u bartpelsma -p dockertest
+          docker push bartpelsma/chat-backend:latest
+          
+        
